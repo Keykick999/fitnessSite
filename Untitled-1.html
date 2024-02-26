@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>운동 영상 웹페이지</title>
+    <style>
+        /* 네비게이션 바 스타일 */
+        /* 네비게이션 바 스타일 */
+        body {
+            background-color: black;
+        }
+
+        h2 {
+            color:white;
+            margin:0px;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 170px; /* 네비게이션 바의 너비 조정 */
+            height: 100%;
+            background-color: rgba(248, 249, 250, 0.5);
+            padding: 20px;
+            font-family: 'Arial', sans-serif; /* 글씨체 설정 */
+            color: #333; /* 글자 색상 설정 */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333; /* 글자 색상 */
+            padding: 10px 0;
+            display: block;
+            margin: 10px 0;
+            font-size: 14px; /* 글자 크기 설정 */
+        }
+
+        /* 링크에 마우스를 올렸을 때 */
+        nav ul li a:hover {
+            font-weight: bold;
+        }
+
+
+
+        .video-category {
+            position: relative;
+            margin-left: 220px;
+            padding: 20px 0;
+        }
+
+        .video-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 20px 0;
+            scroll-behavior: smooth;
+        }
+
+        .video-container video {
+            width: 250px; /* 영상의 너비를 25픽셀로 설정 */
+            height: 200px; /* 영상의 높이를 25픽셀로 설정 */
+            object-fit: cover; /* 영상의 비율을 유지하면서 컨테이너를 채움 */
+            border-radius: 4%;
+        }
+
+
+        .scroll-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #ddd;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .left-btn {
+            left: 0; /* 왼쪽 화살표 조정 */
+            transform: translate(-100%, -50%);
+        }
+
+        .right-btn {
+            right: 0; /* 오른쪽 화살표 조정 */
+            transform: translate(100%, -50%);
+        }
+
+        .video-container {
+            overflow: hidden; /* 스크롤바 숨김을 유지 */
+            white-space: nowrap; /* 가로 스크롤을 위해 */
+            padding: 20px 0; /* 컨테이너 안의 영상들에 패딩 제공 */
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#back">등</a></li>
+            <li><a href="#chest">가슴</a></li>
+            <li><a href="#lowerBody">하체</a></li>
+            <li><a href="#shoulders">어깨</a></li>
+            <li><a href="#arms">팔</a></li>
+        </ul>
+    </nav>
+
+    <div class="video-category">
+        <h2>등</h2>
+        <button class="scroll-btn left-btn">&#60;</button>
+        <div class="video-container">
+            <!-- 등 카테고리의 영상들 -->
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <!-- 더 많은 영상 추가 가능 -->
+        </div>
+        <button class="scroll-btn right-btn">&#62;</button>
+    </div>
+    
+    <div class="video-category">
+        <h2>가슴</h2>
+        <button class="scroll-btn left-btn">&#60;</button>
+        <div class="video-container">
+            <!-- 등 카테고리의 영상들 -->
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <!-- 더 많은 영상 추가 가능 -->
+        </div>
+        <button class="scroll-btn right-btn">&#62;</button>
+    </div>
+
+    <div class="video-category">
+        <h2>하체</h2>
+        <button class="scroll-btn left-btn">&#60;</button>
+        <div class="video-container">
+            <!-- 등 카테고리의 영상들 -->
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <!-- 더 많은 영상 추가 가능 -->
+        </div>
+        <button class="scroll-btn right-btn">&#62;</button>
+    </div>
+
+    <div class="video-category">
+        <h2>어깨</h2>
+        <button class="scroll-btn left-btn">&#60;</button>
+        <div class="video-container">
+            <!-- 등 카테고리의 영상들 -->
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <!-- 더 많은 영상 추가 가능 -->
+        </div>
+        <button class="scroll-btn right-btn">&#62;</button>
+    </div>
+
+    <div class="video-category">
+        <h2>팔</h2>
+        <button class="scroll-btn left-btn">&#60;</button>
+        <div class="video-container">
+            <!-- 등 카테고리의 영상들 -->
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <!-- 더 많은 영상 추가 가능 -->
+        </div>
+        <button class="scroll-btn right-btn">&#62;</button>
+    </div>
+
+    <div class="video-category">
+        <h2>복근</h2>
+        <button class="scroll-btn left-btn">&#60;</button>
+        <div class="video-container">
+            <!-- 등 카테고리의 영상들 -->
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <video src="back1.mp4" controls></video>
+            <video src="back2.mp4" controls></video>
+            <!-- 더 많은 영상 추가 가능 -->
+        </div>
+        <button class="scroll-btn right-btn">&#62;</button>
+    </div>
+    
+
+    <script>
+        document.querySelectorAll('.left-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const videoContainer = button.nextElementSibling; // videoContainer를 올바르게 찾습니다.
+            videoContainer.scrollLeft -= 200; // 왼쪽으로 스크롤
+            });
+         });
+
+    document.querySelectorAll('.right-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const videoContainer = button.previousElementSibling; // videoContainer 찾기
+            videoContainer.scrollLeft += 200; // 오른쪽으로 스크롤
+            });
+        });
+    </script>
+</body>
+</html>

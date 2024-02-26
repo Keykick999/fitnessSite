@@ -1,0 +1,229 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 37.5rem;
+}.list-page-xMm {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 22.7rem;
+
+  .container-top-bar-hidescroll-JRd {
+    padding: 2.5rem 2.7rem 1.9rem 1.5rem;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-shrink: 0;
+
+    .menu-cx7 {
+      margin-bottom: 2.8rem;
+      width: 4.4rem;
+      height: 4.4rem;
+      cursor: pointer;
+      object-fit: contain;
+      vertical-align: top;
+      flex-shrink: 0;
+    }
+    .activity-name-flexo-Muh {
+      display: flex;
+      font-family: Ubuntu, 'Source Sans Pro';
+      line-height: 1.15;
+      color: #151515;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0rem 0rem 0.5rem 1.3rem;
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+    .discover-the-best-adventure-for-you-rrT {
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 1.3333333333;
+      color: #414141;
+      font-family: Ubuntu, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0rem 0rem 2.4rem 1.3rem;
+    }
+    .auto-group-3jzq-B83 {
+      margin-left: 1.3rem;
+      width: calc(100% - 1.3rem);
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+
+      .search-bar--upj {
+        box-sizing: border-box;
+        display: flex;
+        margin-right: 1.3rem;
+        height: 100%;
+        align-items: center;
+        background-color: rgba(96, 80, 179, 0.0500000007);
+        border-radius: 1rem;
+        flex-shrink: 0;
+        padding: 1.4rem 18.5rem 1.2rem 1.5rem;
+
+        .search-component-svg-3AF {
+          margin: 0rem 1.2rem 0rem 0rem;
+          width: 1.2rem;
+          height: 1.2rem;
+          position: relative;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .search-component-input-textaction-filter-Ysh {
+          font-size: 1.4rem;
+          font-weight: 400;
+          line-height: 1.7142857143;
+          color: #6050b3;
+          font-family: Ubuntu, 'Source Sans Pro';
+          white-space: nowrap;
+          flex-shrink: 0;
+          display: flex;
+        }
+      }
+      .filter-eQw {
+        width: 4rem;
+        height: 4rem;
+        object-fit: contain;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+    }
+  }
+  .container-oh9 {
+    width: 100%;
+    height: 33.8rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    .rectangle-3-9W7 {
+      top: 1rem;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.0700000003);
+      background-color: #ffffff;
+      border-radius: 2.5rem;
+      width: 32rem;
+      height: 29.9rem;
+      position: absolute;
+      left: 2.8rem;
+    }
+    .image-jz7 {
+      position: absolute;
+      left: 3.9rem;
+      top: 2rem;
+      object-fit: cover;
+      vertical-align: top;
+      border-radius: 2.5rem;
+      width: 29.8rem;
+      height: 20.3rem;
+    }
+    .activity-name--FhZ {
+      height: 2.3rem;
+      font-weight: 700;
+      white-space: nowrap;
+      color: #151515;
+      width: 6.4rem;
+      position: absolute;
+      left: 5.5rem;
+      top: 23.6rem;
+      display: flex;
+      font-size: 2rem;
+      line-height: 1.15;
+      font-family: Ubuntu, 'Source Sans Pro';
+    }
+    .price-9Y3 {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      height: 1.7rem;
+      left: 27.1rem;
+      top: 26.75rem;
+      box-sizing: border-box;
+      padding-left: 0.1rem;
+      width: 4.2rem;
+
+      .tag-49D {
+        vertical-align: top;
+        flex-shrink: 0;
+        margin: 0.158rem 0.641rem 0rem 0rem;
+        width: 0.9586rem;
+        height: 0.9583rem;
+        object-fit: contain;
+      }
+      .item--z2s {
+        margin-right: 0.1rem;
+        font-weight: 400;
+        line-height: 1.15;
+        white-space: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        font-size: 1.4rem;
+        color: #151515;
+        font-family: Ubuntu, 'Source Sans Pro';
+      }
+      .price-6rb {
+        display: flex;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.15;
+        color: #151515;
+        font-family: Ubuntu, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+    }
+    .location-FUb {
+      left: 5.5rem;
+      padding-left: 0.15rem;
+      width: 7.2rem;
+      height: 1.7rem;
+      position: absolute;
+      top: 26.75rem;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+
+      .map-pin-mxj {
+        height: 1.1rem;
+        object-fit: contain;
+        vertical-align: top;
+        flex-shrink: 0;
+        margin-right: 0.65rem;
+        width: 0.9rem;
+      }
+      .location-isy {
+        white-space: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.15;
+        color: #151515;
+        font-family: Ubuntu, 'Source Sans Pro';
+      }
+    }
+  }
+}
